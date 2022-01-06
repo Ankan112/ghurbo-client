@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Saint Martin",
+    "time": "3 Day & 2 Night",
+    "img": "https://i.ibb.co/V3knKbY/pack1.jpg",
+    "price": "$49 Per Person",
+    "description": "Saint Martin's Island harbors some of the most beautiful beaches in Bangladesh. It has become one of the most popular tourist destinations in Bangladesh among the local tourists in recent years. The island is located in the Bay of Bengal, about 9 km south of the tip of the Cox's Bazar-Teknaf peninsula."
+  },
+  {
+    "id": 2,
+    "name": "Italy",
+    "time": "4 Day & 3 Night",
+    "img": "https://i.ibb.co/D5hgC4S/pack2.jpg",
+    "price": "$129 Per Person",
+    "description": "Italy is filled with riches. It offers you spectacular cities, ancient ruins, wonderful museums, soaring mountains, great beaches, and beautiful natural scenery all packed in one. "
+  },
+  {
+    "id": 3,
+    "name": "Paris",
+    "time": "3 Day & 2 Night",
+    "img": "https://i.ibb.co/NKBDVBJ/pack3.jpg",
+    "price": "$149 Per Person",
+    "description": "The French capital is one of the most romantic cities in Europe and one of the world's most visited cities. There are endless reasons to visit Paris repeatedly: it is a beautiful and cultural city, very walkable, with great sights."
+  },
+  {
+    "id": 4,
+    "name": "Maldives",
+    "time": "5 Day & 4 Night",
+    "img": "https://i.ibb.co/BtzKT2v/pack4.jpg",
+    "price": "$99 Per Person",
+    "description": "The majestic and enormous whale sharks along with the smaller sized reef sharks lurking peacefully in the coral atolls and also on the surrounding lagoons of the resorts are the popular reasons to travel to Maldives."
+  },
+  {
+    "id": 5,
+    "name": "Nepal",
+    "time": "2 Day & 1 Night",
+    "img": "https://i.ibb.co/CJJ9m00/pack5.jpg",
+    "price": "$69 Per Person",
+    "description": "Nepal is a country of contrasts. Spectacular natural riches combine with a vibrant culture and sense of history. Home to ten of the world's 14 highest mountains, the country offers a magnificent setting for hiking and mountaineering, as well as some of the world's best white water rafting."
+  },
+  {
+    "id": 6,
+    "name": "Bali",
+    "time": "5 Day & 4 Night",
+    "img": "https://i.ibb.co/5xjvY7W/pack6.jpg",
+    "price": "$134 Per Person",
+    "description": "Every kind of natural beauty. Beyond stunning beaches and magical temples, Bali has virtually every kind of natural beauty. Glorious mountainous areas with lush greenery, scenic lakes, gorgeous waterfalls, iconic rice fields, flower gardens, gushing sacred rivers."
+  }
+]
