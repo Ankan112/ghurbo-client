@@ -5,7 +5,7 @@ import SingleOffer from '../SingleOffer/SingleOffer';
 const Offer = () => {
     const [Package, setPackage] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/package')
+        fetch('https://intense-brushlands-62929.herokuapp.com/package')
             .then(res => res.json())
             .then(data => setPackage(data))
     }, [])

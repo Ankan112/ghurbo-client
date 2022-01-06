@@ -8,7 +8,7 @@ const PayNow = () => {
     const { id } = useParams();
     const [spackage, setPackage] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:5000/package/${id}`)
+        fetch(`https://intense-brushlands-62929.herokuapp.com/package/${id}`)
             .then(res => res.json())
             .then(data => setPackage(data))
     }, [id])

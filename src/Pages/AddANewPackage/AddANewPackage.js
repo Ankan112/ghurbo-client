@@ -17,7 +17,7 @@ const AddANewPackage = () => {
     }
 
     const handleNewPackage = e => {
-        fetch('http://localhost:5000/package', {
+        fetch('https://intense-brushlands-62929.herokuapp.com/package', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

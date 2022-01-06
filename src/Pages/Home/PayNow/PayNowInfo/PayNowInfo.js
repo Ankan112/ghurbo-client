@@ -15,7 +15,7 @@ const PayNowInfo = ({ info }) => {
         setOrder(newOrder);
     }
     const handleNewOrder = e => {
-        fetch('http://localhost:5000/orders', {
+        fetch('https://intense-brushlands-62929.herokuapp.com/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
