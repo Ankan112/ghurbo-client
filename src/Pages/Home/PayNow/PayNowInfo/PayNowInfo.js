@@ -15,7 +15,7 @@ const PayNowInfo = ({ info }) => {
         setOrder(newOrder);
     }
     const handleNewOrder = e => {
-        fetch('https://intense-brushlands-62929.herokuapp.com/orders', {
+        fetch('https://assignment-11-node-mongodb.vercel.app/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

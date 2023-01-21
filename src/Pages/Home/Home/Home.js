@@ -4,6 +4,7 @@ import Navigation from '../../Navigation/Navigation';
 import BootstrapCarousel from '../BootstrapCarousel/BootstrapCarousel';
 import Gallery from '../Gallery/Gallery';
 import Guide from '../Guide/Guide';
+import NewsLetter from '../NewsLetter/NewsLetter';
 import Offer from '../Offer/Offer'
 import Review from '../Review/Review';
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <Gallery></Gallery>
             <Review></Review>
             <Guide></Guide>
+            {/* <NewsLetter></NewsLetter> */}
             <Footer></Footer>
         </div>
     );

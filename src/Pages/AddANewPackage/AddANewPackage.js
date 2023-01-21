@@ -17,7 +17,7 @@ const AddANewPackage = () => {
     }
 
     const handleNewPackage = e => {
-        fetch('https://intense-brushlands-62929.herokuapp.com/package', {
+        fetch('https://assignment-11-node-mongodb.vercel.app/package', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

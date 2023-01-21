@@ -17,14 +17,14 @@ const MyOrders = () => {
     const [ordersInfo, setOrdersInfo] = useState([])
 
     useEffect(() => {
-        fetch(`https://intense-brushlands-62929.herokuapp.com/orders/${email}`)
+        fetch(`https://assignment-11-node-mongodb.vercel.app/orders/${email}`)
             .then(res => res.json())
             .then(data => setOrdersInfo(data))
     }, [email])
     const handleDeleteOrder = id => {
         const proceed = window.confirm('Are You Sure, You Want to Delete this Order?');
         if (proceed) {
-            const url = `https://intense-brushlands-62929.herokuapp.com/orders/${id}`
+            const url = `https://assignment-11-node-mongodb.vercel.app/orders/${id}`
             fetch(url, {
                 method: 'DELETE'
             })

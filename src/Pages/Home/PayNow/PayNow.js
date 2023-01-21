@@ -8,7 +8,7 @@ const PayNow = () => {
     const { id } = useParams();
     const [spackage, setPackage] = useState([]);
     useEffect(() => {
-        fetch(`https://intense-brushlands-62929.herokuapp.com/package/${id}`)
+        fetch(`https://assignment-11-node-mongodb.vercel.app/package/${id}`)
             .then(res => res.json())
             .then(data => setPackage(data))
     }, [id])
