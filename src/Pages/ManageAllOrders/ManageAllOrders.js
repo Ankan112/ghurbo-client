@@ -14,14 +14,14 @@ const ManageAllOrders = () => {
     const [ordersInfo, setOrdersInfo] = useState([])
 
     useEffect(() => {
-        fetch(`https://assignment-11-node-mongodb.vercel.app/orders`)
+        fetch(`https://assignment-11-node-mongodb-iyejhgqnc-ankan112.vercel.app/orders`)
             .then(res => res.json())
             .then(data => setOrdersInfo(data))
     }, [])
     const handleDeleteOrder = id => {
         const proceed = window.confirm('Are You Sure, You Want to Delete this Order?');
         if (proceed) {
-            const url = `https://assignment-11-node-mongodb.vercel.app/orders/${id}`
+            const url = `https://assignment-11-node-mongodb-iyejhgqnc-ankan112.vercel.app/orders/${id}`
             fetch(url, {
                 method: 'DELETE'
             })

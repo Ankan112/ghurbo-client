@@ -17,7 +17,7 @@ const AddANewPackage = () => {
     }
 
     const handleNewPackage = e => {
-        fetch('https://assignment-11-node-mongodb.vercel.app/package', {
+        fetch('https://assignment-11-node-mongodb-iyejhgqnc-ankan112.vercel.app/package', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -15,7 +15,7 @@ const PayNowInfo = ({ info }) => {
         setOrder(newOrder);
     }
     const handleNewOrder = e => {
-        fetch('https://assignment-11-node-mongodb.vercel.app/orders', {
+        fetch('https://assignment-11-node-mongodb-iyejhgqnc-ankan112.vercel.app/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

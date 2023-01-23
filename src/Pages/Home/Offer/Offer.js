@@ -5,7 +5,7 @@ import SingleOffer from '../SingleOffer/SingleOffer';
 const Offer = () => {
     const [Package, setPackage] = useState([])
     useEffect(() => {
-        fetch('https://assignment-11-node-mongodb.vercel.app/package')
+        fetch('https://assignment-11-node-mongodb-iyejhgqnc-ankan112.vercel.app/package')
             .then(res => res.json())
             .then(data => setPackage(data))
     }, [])
