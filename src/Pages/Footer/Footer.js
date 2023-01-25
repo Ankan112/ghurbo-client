@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 const Footer = () => {
     return (
-        <Box sx={{ backgroundColor: '#566573 ', marginTop: '70px' }}>
+        <Box sx={{ backgroundColor: '#566573 ' }}>
             <Container sx={{ paddingY: '40px', color: '#F2F3F4 ' }}>
                 <Grid container spacing={3}>
                     <Grid item xs={6} md={3}>
